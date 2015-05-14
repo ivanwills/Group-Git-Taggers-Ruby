@@ -61,3 +61,6 @@ Debian_CPANTS.txt
 
 # Avoid archives of this distribution
 \bGroup-Git-Taggers-Ruby-[\d\.\_]+
+^MYMETA\.json$
+.cpan.tag
+.travis.yml
