@@ -1,5 +1,9 @@
 Revision history for Group-Git-Taggers-Ruby
 
+0.0.3   2015-09-01
+        Updating for release of version 0.0.3
+        Removed creation of makefile (Ivan Wills)
+
 0.0.2   2015-07-26
         Updating for release of version 0.0.2
         Added coveralls config (Ivan Wills)
