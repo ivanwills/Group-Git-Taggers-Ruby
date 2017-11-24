@@ -1,16 +1,24 @@
---- 
+---
 count: 4
-default: 
+default:
   restart: 0
   wait: 0
-editor: 
-  files: 
-    eg: 
+editor:
+  files:
+    eg:
       - some-file.eg
 name: Group-Git-Taggers-Ruby
-terminals: 
-  2: []
-
+terminals:
+  1a:
+    command: ./Build && ./Build testcover
+    restart: 1
+    wait: 0
+    watch:
+      - lib
+      - bin
+      - tests
+  2:
+      edit: lib
   3: []
 
   4: []
