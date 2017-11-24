@@ -1,5 +1,10 @@
 Revision history for Group-Git-Taggers-Ruby
 
+0.0.5   2017-11-24
+        Updating for release of version 0.0.5
+        Removing perl 5.8 support (Ivan Wills)
+        Added auto test (Ivan Wills)
+
 0.0.4   2017-11-23
         Updating for release of version 0.0.4
         Updated date (Ivan Wills)
